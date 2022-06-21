@@ -80,15 +80,3 @@ In this model, you will predict whether the images in the test data are images o
     </ul>
 </center>
 Use the following cells to make your predictions.
-
-
-
-
-  
-### Thank you for completing this lab!
-
-This notebook was created by Alex Aklson.
-This notebook is part of a course on **Coursera** called *AI Capstone Project with Deep Learning*. If you accessed this notebook outside the course, you can take this course online by clicking [here](https://cocl.us/DL0321EN_Coursera_Week4_LAB1).
-<hr>
-
-Copyright &copy; 2020 [IBM Developer Skills Network](https://cognitiveclass.ai/?utm_source=bducopyrightlink&utm_medium=dswb&utm_campaign=bdu). This notebook and its source code are released under the terms of the [MIT License](https://bigdatauniversity.com/mit-license/).
