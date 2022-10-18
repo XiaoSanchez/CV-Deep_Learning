@@ -1,6 +1,6 @@
 ## Introduction
 
-This project build an image classifier using the VGG16 pre-trained model, and evaluate it and compare its performance to the model we built in the last module using the ResNet50 pre-trained model. Good luck!
+This project build an image classifier using the VGG16 pre-trained model, and evaluate it and compare its performance to the model we built in the last module using the ResNet50 pre-trained model.
 ## Table of Contents
 
 <div class="alert alert-block alert-info" style="margin-top: 20px">
@@ -36,17 +36,6 @@ You will essentially build your classifier as follows:
 6. Fit the model on the augmented data using the ImageDataGenerators.
 Use the following cells to create your classifier.
 
-
-
-
-
-
-
-
-
-
-
-   
 <a id="item43"></a>
 ## Part 2
 This part evaluate your deep learning models on a test data. For this part, you will need to do the following:
@@ -58,10 +47,6 @@ This part evaluate your deep learning models on a test data. For this part, you 
 5. Print the performance of the classifier using the ResNet pre-trained model.
 
 Use the following cells to evaluate your models.
-
-
-
-
    
 <a id="item44"></a>
 ## Part 3
