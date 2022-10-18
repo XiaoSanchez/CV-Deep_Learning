@@ -26,7 +26,7 @@ After you unzip the data, you fill find the data has already been divided into a
   
 <a id="item42"></a>
 ## Part 1
-In this part, you will design a classifier using the VGG16 pre-trained model. Just like the ResNet50 model, you can import the model <code>VGG16</code> from <code>keras.applications</code>.
+This part design a classifier using the VGG16 pre-trained model. Just like the ResNet50 model, you can import the model <code>VGG16</code> from <code>keras.applications</code>.
 You will essentially build your classifier as follows:
 1. Import libraries, modules, and packages you will need. Make sure to import the *preprocess_input* function from <code>keras.applications.vgg16</code>.
 2. Use a batch size of 100 images for both training and validation.
@@ -49,7 +49,7 @@ Use the following cells to create your classifier.
    
 <a id="item43"></a>
 ## Part 2
-In this part, you will evaluate your deep learning models on a test data. For this part, you will need to do the following:
+This part evaluate your deep learning models on a test data. For this part, you will need to do the following:
 
 1. Load your saved model that was built using the ResNet50 model. 
 2. Construct an ImageDataGenerator for the test set. For this ImageDataGenerator instance, you only need to pass the directory of the test images, target size, and the **shuffle** parameter and set it to False.
@@ -65,7 +65,7 @@ Use the following cells to evaluate your models.
    
 <a id="item44"></a>
 ## Part 3
-In this model, you will predict whether the images in the test data are images of cracked concrete or not. You will do the following:
+This model predict whether the images in the test data are images of cracked concrete or not. You will do the following:
 
 1. Use the **predict_generator** method to predict the class of the images in the test data, by passing the test data ImageDataGenerator instance defined in the previous part as an argument. You can learn more about the **predict_generator** method [here](https://keras.io/models/sequential/).
 2. Report the class predictions of the first five images in the test set. You should print something list this:
